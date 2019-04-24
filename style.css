@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+/*------HTML Tags------*/
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	background-color: #000000;
+}
+#indexbody {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow: hidden;
+}
+
+p {
+    color: #C6CEEC;
+    font-family: Helvetica, Arial, "sans-serif";
+    font-size: 0.95em;
+    line-height: 1.9em;	
+}
+
+.about p {
+	font-size: 1.2em;
+}
+
+.about h1 {
+	font-size: 35px;
+}
+
+
+blockquote {
+	color: #C6CEEC;
+    font-family: Helvetica, Arial, "sans-serif";
+    font-size: 0.95em;
+    line-height: 1.9em;	
+	color: #EFC025;
+}
+
+h1 {
+	color: #C6CEEC;
+	font-family: Helvetica, Arial, "sans-serif";
+	font-size: 40px;
+	
+}
+h2 {
+	color: #C6CEEC;
+	font-family: Helvetica, Arial, "sans-serif";
+	font-size: 30px;
+}
+h3 {
+	color: #C6CEEC;
+	font-family: Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+}
+
+/*-----Flex Container-----*/
+.row1, .row2 {
+	display: flex;
+	width: 1000px;
+    flex-direction: row;
+	flex-wrap: wrap;
+	align-content: space-around;
+}
+
+.row1, .row2 h1 {
+	font-size: 35px;
+}
+.row1, .row2 h2 {
+	font-size: 20px;
+}
+
+.container1, .container2, .container3 {
+	width: 310px;
+	margin: 10px;
+}
+
+/*------Media Queries------*/
+.container {
+	padding: 20px;
+}
+
+
+
+
+/*------Page Sections------*/
+#splash {
+   	background: url(images/brockhampton-press-photo-by-Ashlan-Grey-2018-billboard-u-1548.jpg) no-repeat center top fixed;
+   	background-size: cover;
+    height: 600px;
+    overflow: hidden;
+	width: 100%;
+	
+}
+
+#splashindex {
+   	background: url(images/brockhampton-press-photo-by-Ashlan-Grey-2018-billboard-u-1548.jpg) no-repeat center top fixed;
+   	background-size: cover;
+    height: 1000px;
+    overflow: hidden;
+	width: 100%;
+	
+}
+#header {
+	padding-top: 25.2em;
+}
+
+#nav {
+    color: #365EAC;
+    font-weight: bold;
+    width: auto;
+    font-family: 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+    font-size: 1.4em;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	
+}
+
+#footer {
+	color: #365EAC;
+	position: absolute;
+	width: 100%;
+	padding: 2.75px;
+	clear: both;
+}
+
+
+
+/*------Menu------*/
+ul#menu {
+	list-style-type: none;
+	padding: 6px 20px 25px 20px;
+	margin-left: -5px;
+	
+}
+
+ul#menu li{
+	float: left;
+	
+}
+
+ul#menu li a.button {
+	padding: 6px ;
+	background-color: #000000
+}
+
+ul#menu li a.button.selected{
+	background-color: #3E4049;
+	color: #000000;
+}
+/*------Link/Styles------*/
+a:link {
+	font-weight: bold;
+	color:#385EAB;
+	text-decoration: none;
+}
+
+a:visited {
+	font-weight: bold;
+	color:#385EAB;
+	text-decoration: none;
+}
+a:hover {
+	font-weight: bold;
+	color:#EFC025;
+	text-decoration: none;
+}
+iframe {
+  border: 0.25em solid #EFC025;
+}
+
+.elfsight-app-cd63111c-92c6-4f3e-ad73-10ad7848ec8e {
+	height: 350px;
+	overflow: hidden;
+}
